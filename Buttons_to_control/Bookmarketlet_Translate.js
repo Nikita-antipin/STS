@@ -1,0 +1,1 @@
+javascript:(function(){document.getElementsByTagName('video')[0].pause(); navigator.clipboard.writeText(4); })();
