@@ -3,5 +3,6 @@ It is an application that will help you to learn languages by watching your favo
 
 
 ![photo_for_button](https://user-images.githubusercontent.com/78693495/178848674-61f4eac3-0dd9-4fb7-94b3-7f22414a0a10.png)
+
 Buttons for STS
 
