@@ -28,5 +28,8 @@ Example
   <img src="https://user-images.githubusercontent.com/78693495/178943075-b5923776-87a9-4c97-a919-08ba54d3ec5b.png">
 </p>
 
+## Requirements
+- GoogleChrome
+- ChromeDriver 
 
 
