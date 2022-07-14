@@ -4,7 +4,7 @@ It is an application that will help you to learn languages by watching your favo
 ***
 
 <p align="center">
-Buttons for STS: play, stop, translate
+STS buttons: play, stop, translate
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/78693495/178933254-e0c4cf01-c743-4203-bc51-065755a8960d.png">
