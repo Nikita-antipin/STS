@@ -1,7 +1,8 @@
 from tkinter import *
-from paste_from_clipboard import *
+from set_and_get_data_from_clipboard import *
 from get_processed_sub import get_processed_sub
 from translate_sub import *
+from time import sleep
 import os
 
 #That function saves pathname to sub
@@ -38,7 +39,7 @@ def openNewWindow():
     btn_to_continue.pack()
 
 
-def click_button_to_translate():
+def translate():
     global text_to_translate
     translated_copied_text = translate_text(text_to_translate)
     translated_output.delete('1.0', END)
@@ -57,17 +58,15 @@ def click_button_to_start():
 #works after button is pressed
 def continuation():
     global text_to_translate
-
     #partition that is used to pinpoint the case when the button is pressed in the browser
     if str(get_clipboard_text()) == "4323232":
-        click_button_to_translate()
-        while True:
-            if str(get_clipboard_text()) == "345489494":
-                break
+        translate()
+        set_clipboard_text("45478745548")
+        root.after(300, continuation)
+        return None
     if str(get_clipboard_text()) == "45478745548":
-        while True:
-            if str(get_clipboard_text()) == "345489494":
-                break
+        root.after(300, continuation)
+        return None
 
     output.delete('1.0', END)
     output.insert(END, time_with_text[0][1])
