@@ -58,14 +58,20 @@ def click_button_to_start():
 #works after button is pressed
 def continuation():
     global text_to_translate
+    global stop_checker
     #partition that is used to pinpoint the case when the button is pressed in the browser
+
     if str(get_clipboard_text()) == "4323232":
         translate()
         set_clipboard_text("45478745548")
         root.after(300, continuation)
         return None
-    if str(get_clipboard_text()) == "45478745548":
+    if str(get_clipboard_text()) == "345489494":
+        stop_checker = 0
+    if str(get_clipboard_text()) == "45478745548" or stop_checker == 1:
         root.after(300, continuation)
+        stop_checker = 1
+        text_to_translate = str(get_clipboard_text())
         return None
 
     output.delete('1.0', END)
@@ -106,7 +112,8 @@ btn_to_start.grid(row=7, column=1, columnspan=2, padx=5, pady=(0,10))
 
 
 #Logic partition
-
+#need to understand if programm stop or not
+stop_checker = 0
 text_to_translate = str(get_clipboard_text())
 #data that is like [(time, subtitle),....]
 time_with_text = get_processed_sub()
