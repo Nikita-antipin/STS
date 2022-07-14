@@ -1,6 +1,6 @@
 ## STS - SubToStudy
 ***
-It is an application that will help you to learn languages by watching videos on the Internet. You can tranlate unknown words in subtitles right there. Just copy text and press buttons in your browser (that are actually bookmarklets, that execute java scripts). 
+It is an application that will help you to learn languages by watching videos on the Internet. You can tranlate unknown words in subtitles right there. Just copy text and press buttons in your browser (they are actually bookmarklets, that execute java scripts). 
 ***
 
 <p align="center">
