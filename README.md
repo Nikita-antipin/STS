@@ -18,6 +18,15 @@ Application-window
 <p align="center">
   <img src="https://user-images.githubusercontent.com/78693495/178932554-b7a022a1-1776-48da-9a19-3c9a8c1bb414.png">
 </p>
+<p align="center">
+Example
+
+</p>
+</p>
+<p align="center">
+
+  <img src="https://user-images.githubusercontent.com/78693495/178943075-b5923776-87a9-4c97-a919-08ba54d3ec5b.png">
+</p>
 
 
 
